@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    color:lightpink
+    color:black
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -15,7 +15,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color:black
+    color: #999;
 }
 a:hover {
     text-decoration: underline;
@@ -27,10 +27,10 @@ h1 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color:black
 }
 footer {
-    border-top: 3px solid black;
+    border-top: 3px solid #d5d5d5;
     font-size: .8em;
 }
 
@@ -41,4 +41,8 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+.smaller-text {
+    font-size:20px;
 }
